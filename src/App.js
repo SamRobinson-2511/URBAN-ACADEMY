@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Search from './Search';
+import VocabularyCard from './VocabularyCard';
+import VocabularyList from './VocabularyList';
+import VocabularyForm from './VocabularyForm';
+import VocabularyPage from './VocabularyPage';
+import NavBar from './NavBar';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header className="App-header"></header>
+      <Search/>
+      <VocabularyCard/>
+      <VocabularyList/>
+      <VocabularyForm/>
+      <VocabularyPage/>
     </div>
   );
 }

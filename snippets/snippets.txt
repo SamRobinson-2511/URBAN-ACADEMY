@@ -1,0 +1,18 @@
+fetch API
+
+const url = ;
+fetch(url, {
+  method: "GET",
+  withCredentials: true,
+  headers: {
+    "X-Auth-Token": "03af111f8cmsh681f36e41f11f5fp1691f8jsnc593d0c810f2",
+    "Content-Type": "application/json"
+  }
+})
+  .then(resp => resp.json())
+  .then(function(data) {
+    console.log(data);
+  })
+  .catch(function(error) {
+    console.log(error);
+  });
