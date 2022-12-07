@@ -3,7 +3,6 @@ import React from "react";
 
 function Search({setSearch}) {
 
-
     return (
       <div className="searchbar">
         <label htmlFor="search">Search Terms:</label>
@@ -11,7 +10,7 @@ function Search({setSearch}) {
           type="text"
           id="search"
           placeholder="How do you say it?"
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={(e)=>setSearch(e.target.value)}
         />
       </div>
   );

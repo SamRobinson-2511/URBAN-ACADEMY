@@ -9,7 +9,7 @@ return (
          <div className="header"> TERM </div>   
       </div>
 {/* TOGGLE IDEA or Pronunciation */}
-      <div className="extra content">
+      <div className="extra-content">
          <span>
           <i className="lightbulb yellow" />LIGHT BULB/ MICROPHONE </span>
       </div>

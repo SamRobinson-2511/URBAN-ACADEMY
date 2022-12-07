@@ -1,14 +1,20 @@
-import React, { useEffect, useState }from "react";
+import React, { useEffect, useState } from "react";
 import VocabularyList from "./VocabularyList";
 import VocabularyForm from "./VocabularyForm";
 import Search from "./Search";
 
 
 
-function VocabularyPage({searchTerm}) {
+function VocabularyPage() {
   const[defines, setDefines] = useState([])
   const[search, setSearch] = useState('')
+
+
   
+
+
+  
+ 
   
 
   const options = {
@@ -19,13 +25,18 @@ function VocabularyPage({searchTerm}) {
     }
   };
   useEffect(()=>{
-  fetch(`https://mashape-community-urban-dictionary.p.rapidapi.com/define?term=justine`, options)
+  fetch(`https://mashape-community-urban-dictionary.p.rapidapi.com/define?term=${searchTerm}`, options)
   .then(response => response.json())
   .then(defines => setDefines(defines))
   .catch(err => console.error(err));
   },[])
 
-  console.log(defines)
+
+  
+  function setSearch(e){
+    e.preventDefault()
+    console.log("here")
+  }
   
  
   
