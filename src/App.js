@@ -15,10 +15,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
-      {/* <Search setSearch = {setSearch}/> */}
-      <VocabularyCard/>
-      <VocabularyList/>
-      <VocabularyForm/>
       <VocabularyPage/>
     </div>
   );
