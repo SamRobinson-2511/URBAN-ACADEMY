@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.title {
+  color: rgba(179, 179, 179,);
+}
+
+.img {
+  background: transparent;
+      border: 0px;
+}

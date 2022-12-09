@@ -1,167 +1,180 @@
-{ 
+{
   "cohort": [
     {
-      "id":1,
-      "term":"Ginny",
-      "definition":"Ecuadorian delicacy",
-      "example":"Cecilia did not find Ginny delicious.",
-      "moreInfo":"https://www.urbandictionary.com/define.php?term=Bromance"
+      "id": 1, 
+      "term": "Ginny",
+      "image": "https://squeaksandnibbles.com/wp-content/uploads/2017/07/1-2.jpg",
+      "definition": "Ecuadorian delicacy",
+      "example": "Cecilia did not find Ginny delicious.",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Ginny"
     },
     {
-      "id":2,
+      "id": 2,
       "term": "Cecilia",
-      "definition":"Best friend in the world! Kind and loving, sometimes quiet and cares for you! Can be a little 'over - crazed'. Cecilia looks out for you every time.",
-      "example":"I will never forget Cecilia.",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U045MA8494Y-ba9c9a06a6d3-512",
+      "definition": "Best friend in the world! Kind and loving, sometimes quiet and cares for you! Can be a little 'over - crazed'. Cecilia looks out for you every time.",
+      "example": "I will never forget Cecilia.",
       "moreInfo": "https://www.urbandictionary.com/define.php?term=Cecilia"
     },
     {
-      "id":3, 
+      "id": 3,
       "term": "Gehrig",
-      "definition":"The god of the 7 seas",
-      "example":"I went to go get some Gehrig last night.",
-      "moreInfo":"https://www.urbandictionary.com/define.php?term=Gehrig"
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U03P08HJ406-528a3c81dc6f-512",
+      "definition": "The god of the 7 seas",
+      "example": "I went to go get some Gehrig last night.",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Gehrig"
     },
     {
-      "id":4,
+      "id": 4,
       "term": "Kevin",
-      "definition":"Kevin is just Kevin",
-      "example":"'Kevin'",
-      "moreInfo":"https://www.urbandictionary.com/define.php?term=Kevin"
-    }, 
+      "image": "/images/kevin.PNG",
+      "definition": "Kevin is just Kevin",
+      "example": "'Kevin'",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Kevin"
+    },
     {
-      "id":5,
+      "id": 5,
       "term": "Javier",
-      "definition":"Common name for males of hispanic origin. They say that people caring the name Javier are often honest and flirty. Nick for this name; Javi.",
-      "example":"Oye Javi!", 
-      "moreInfo":"https://www.urbandictionary.com/define.php?term=Javier"
-    }, 
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U044SVCDQH0-83ca2617f0fe-512",
+      "definition": "Common name for males of hispanic origin. They say that people caring the name Javier are often honest and flirty. Nick for this name; Javi.",
+      "example": "Oye Javi!",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Javier"
+    },
     {
-      "id":6,
+      "id": 6,
       "term": "Allie",
-      "definition":"Normally good at sports such as hiking, gymnastics, and frog gazing. THEY are beautiful but doesn’t know it. Everyone wants an Allie in their life",
-      "example":"Hey, Allie!",
-      "moreInfo":"https://www.urbandictionary.com/define.php?term=Allie&page=2" 
-    }, 
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U046QQVFN7J-269e34bf1b8b-512",
+      "definition": "Normally good at sports such as hiking, gymnastics, and frog gazing. THEY are beautiful but doesn’t know it. Everyone wants an Allie in their life",
+      "example": "Hey, Allie!",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Allie&page=2"
+    },
     {
-      "id":7,
-      "term": "Tor", 
-      "definition":"An anonymizing program and browser used to access the 'deep web' through .onions. A portal to a dark, hidden, and disturbing part of the net.",
-      "example":"My name is Tor!",
-      "moreInfo":"https://www.urbandictionary.com/define.php?term=Tor"
-    }, 
+      "id": 7,
+      "term": "Tor",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U047SR0LL0M-169e7e9ee041-512",
+      "definition": "An anonymizing program and browser used to access the 'deep web' through .onions. A portal to a dark, hidden, and disturbing part of the net.",
+      "example": "My name is Tor!",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Tor"
+    },
     {
-      "id":8, 
+      "id": 8,
       "term": "Nicholas",
-      "definition":"The greatest guy in the entire world. If you don't know a Nicholas, I feel sorry for you. Usually pretty aloof and always hot.",
-      "example":"My boyfriend Nicholas is the most amazing person ever!",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U047PEFTRL3-8cbda6fef6d1-512",
+      "definition": "The greatest guy in the entire world. If you don't know a Nicholas, I feel sorry for you. Usually pretty aloof and always hot.",
+      "example": "My boyfriend Nicholas is the most amazing person ever!",
       "moreInfo": "https://www.urbandictionary.com/define.php?term=Nicholas.&page=2"
-    }, 
-    {
-      "id":9,
-      "term":"Caitlin", 
-      "definition":"An amazing purple dinosaur.",
-      "example":"Wow thats caitlin, shes a purple dinosaur",
-      "moreInfo":"https://www.urbandictionary.com/define.php?term=Caitlin"
     },
     {
-    "id":10,
-      "term":"Yetunde", 
-      "definition":"A very beautiful lady or girl. She hates to be around fake people and treats her friends well.",
-      "example":"Yetunde is a defined girl",
-      "moreInfo":"https://www.urbandictionary.com/define.php?term=Yetunde"
+      "id": 9,
+      "term": "Caitlin",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U0489KRBMFT-332c4173d81e-512",
+      "definition": "An amazing purple dinosaur.",
+      "example": "Wow thats caitlin, shes a purple dinosaur",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Caitlin"
     },
     {
-      "id":11,
-      "term":"Ryan", 
-      "definition":"A guy who likes to read his own name on this website.",
-      "example":"Being a Ryan is great.",
-      "moreInfo":"https://www.urbandictionary.com/define.php?term=Ryan"
+      "id": 10,
+      "term": "Yetunde",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U04864JHSTA-5597abfc6460-512",
+      "definition": "A very beautiful lady or girl. She hates to be around fake people and treats her friends well.",
+      "example": "Yetunde is a defined girl",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Yetunde"
     },
     {
-      "id":12,
-      "term":"Sam", 
-      "definition":"A wild boar that will only attack you when you approach it with a banana.",
-      "example":"I accidentally approached the Sam with a banana.",
-      "moreInfo":"https://www.urbandictionary.com/define.php?term=Sam"
+      "id": 11,
+      "term": "Ryan",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U04240PC9AQ-c9b34e4c3e18-512",
+      "definition": "A guy who likes to read his own name on this website.",
+      "example": "Being a Ryan is great.",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Ryan"
     },
     {
-      "id":13,
-      "term":"Julianne", 
-      "definition":"The most amazing friend someone could ever have.",
-      "example":"Hey thats Julianne!",
-      "moreInfo":"https://www.urbandictionary.com/define.php?term=Julianne&page=4"
+      "id": 12,
+      "term": "Sam",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U0489C29A56-00fe6f6ade82-512",
+      "definition": "A wild boar that will only attack you when you approach it with a banana.",
+      "example": "I accidentally approached the Sam with a banana.",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Sam"
+    },
+    {
+      "id": 13,
+      "term": "Julianne",
+      "image": "https://ca.slack-edge.com/T02MD9XTF-U047U914CRY-5724853335f8-512",
+      "definition": "The most amazing friend someone could ever have.",
+      "example": "Hey thats Julianne!",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Julianne&page=4"
     }
   ],
-    "terms": [
-      {
-        "id":1,
-        "term":"Bromance",
-        "definition":"Bromance is the combination of two words, `brother` and `romance`. It describes the unique male bonding found between `brothers from another mother`. This is between heterosexual males and no matter what is never seen as a gay relationship, though it may be joked about",
-        "example":" Javiar and Kevin have such a bromance, they literally know what the others thinking.",
-        "moreInfo":"https://www.urbandictionary.com/define.php?term=Bromance"
-      },
-      {
-        "id":2,
-        "term": "Meat Sweats",
-        "definition":"To consume an obsene amount of meat resulting in perfuse sweating.",
-        "example":"They needed to mop thier brow as they had a bad case of the meat sweats.",
-        "moreInfo": "https://www.urbandictionary.com/define.php?term=meat%20sweats"
-      },
-      {
-        "id":3, 
-        "term": "Cyberslacking",
-        "definition":"Using a companies computer and Internet for personal activities when one should be doing work.",
-        "example":"John's job is so boring and monotonous that he started Cyberslacking by browsing Youtube for hours everyday.",
-        "moreInfo":"https://www.urbandictionary.com/define.php?term=Cyberslacking"
-      },
-      {
-        "id":4,
-        "term": "Askhole",
-        "definition":"Someone who asks for your advice but then, does the exact opposite.",
-        "example":"Most of my friends are askholes.",
-        "moreInfo":"https://www.urbandictionary.com/define.php?term=Askhole"
-      }, 
-      {
-        "id":5,
-        "term": "Edward Cullen",
-        "definition":"A psycho who goes into girls bedrooms to watch them sleep. May or may not sparkle.",
-        "example":"This guy is a total Edward Cullen! Crept into my room again last night!",
-        "moreInfo":"https://www.urbandictionary.com/define.php?term=Edward%20Cullen"
-      }, 
-      {
-        "id":6,
-        "term": "Movie Theater Physics",
-        "definition":"The science of figuring out the distance between the movie theater screen and speakers to ensure an optimal movie-watching experience.",
-        "example":"Mason insisted on going to the theater early and finding the perfect seat; he wanted to show his date how movie theater physics works",
-        "moreInfo":"https://www.urbandictionary.com/define.php?term=movie%20theater%20physics" 
-      }, 
-      {
-        "id":7,
-        "term": "Noxter", 
-        "definition":"Obnoxious eater - someone who eats really loud, aggressive and offensive and is unpleasant to be around.",
-        "example":"I was at the movie theatre and was sitting beside a noxter, I almost got up and left it was so annoying.",
-        "moreInfo":"https://www.urbandictionary.com/define.php?term=Noxter"
-      }, 
-      {
-        "id":8, 
-        "term": "Study",
-        "definition":"Texting, eating and watching TV with an open textbook nearby",
-        "example":"Dude, I have to study",
-        "moreInfo": "https://www.urbandictionary.com/define.php?term=study"
-      }, 
-      {
-        "id":9,
-        "term":"Calories", 
-        "definition":"Little monsters that sneak into your room at night and sew all your clothes tighter.",
-        "example":"Avoid calories at all costs.",
-        "moreInfo":"https://www.urbandictionary.com/define.php?term=calories"
-      },
-      {
-        "id":10,
-        "term":"French Microphone", 
-        "definition":"When some ones sleeping with there mouth open and you fart in their mouth causing an echo.",
-        "example":"Bobby Boucher received a french microphone after falling asleep at the party",
-        "moreInfo":"https://www.urbandictionary.com/define.php?term=French%20Microphone"
-      }
+  "terms": [
+    {
+      "id": 1,
+      "term": "Bromance",
+      "definition": "Bromance is the combination of two words, `brother` and `romance`. It describes the unique male bonding found between `brothers from another mother`. This is between heterosexual males and no matter what is never seen as a gay relationship, though it may be joked about",
+      "example": " Javiar and Kevin have such a bromance, they literally know what the others thinking.",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Bromance"
+    },
+    {
+      "id": 2,
+      "term": "Meat Sweats",
+      "definition": "To consume an obsene amount of meat resulting in perfuse sweating.",
+      "example": "They needed to mop thier brow as they had a bad case of the meat sweats.",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=meat%20sweats"
+    },
+    {
+      "id": 3,
+      "term": "Cyberslacking",
+      "definition": "Using a companies computer and Internet for personal activities when one should be doing work.",
+      "example": "John's job is so boring and monotonous that he started Cyberslacking by browsing Youtube for hours everyday.",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Cyberslacking"
+    },
+    {
+      "id": 4,
+      "term": "Askhole",
+      "definition": "Someone who asks for your advice but then, does the exact opposite.",
+      "example": "Most of my friends are askholes.",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Askhole"
+    },
+    {
+      "id": 5,
+      "term": "Edward Cullen",
+      "definition": "A psycho who goes into girls bedrooms to watch them sleep. May or may not sparkle.",
+      "example": "This guy is a total Edward Cullen! Crept into my room again last night!",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Edward%20Cullen"
+    },
+    {
+      "id": 6,
+      "term": "Movie Theater Physics",
+      "definition": "The science of figuring out the distance between the movie theater screen and speakers to ensure an optimal movie-watching experience.",
+      "example": "Mason insisted on going to the theater early and finding the perfect seat; he wanted to show his date how movie theater physics works",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=movie%20theater%20physics"
+    },
+    {
+      "id": 7,
+      "term": "Noxter",
+      "definition": "Obnoxious eater - someone who eats really loud, aggressive and offensive and is unpleasant to be around.",
+      "example": "I was at the movie theatre and was sitting beside a noxter, I almost got up and left it was so annoying.",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=Noxter"
+    },
+    {
+      "id": 8,
+      "term": "Study",
+      "definition": "Texting, eating and watching TV with an open textbook nearby",
+      "example": "Dude, I have to study",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=study"
+    },
+    {
+      "id": 9,
+      "term": "Calories",
+      "definition": "Little monsters that sneak into your room at night and sew all your clothes tighter.",
+      "example": "Avoid calories at all costs.",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=calories"
+    },
+    {
+      "id": 10,
+      "term": "French Microphone",
+      "definition": "When some ones sleeping with there mouth open and you fart in their mouth causing an echo.",
+      "example": "Bobby Boucher received a french microphone after falling asleep at the party",
+      "moreInfo": "https://www.urbandictionary.com/define.php?term=French%20Microphone"
+    }
   ]
 }

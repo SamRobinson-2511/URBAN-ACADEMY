@@ -1,108 +1,100 @@
-:root {
-  --green: rgb(39, 189, 39);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Playfair Display", serif;
-}
-
-h2 {
-  margin-bottom: 1rem;
-}
-
-button {
-  padding: 0.25rem 1rem;
-  font-family: inherit;
-  border: none;
-  cursor: pointer;
-}
-
-button.primary {
-  background-color: var(--green);
-  color: white;
-}
-
-.app {
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-header h1 {
+header {
+  background-color: rgb(27, 41, 54);
   font-size: 2.5em;
   font-weight: 900;
   text-align: center;
   padding: 0.5rem 0;
 }
-
-.logo {
-  font-size: 1.25em;
-  padding-left: 0.5rem;
-  color: transparent;
-  text-shadow: 0 0 0 var(--green);
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgba(179, 179, 179, 0.5);
 }
 
-main {
-  padding: 0 1rem;
+.logo{
+  width: 6%;
+  height: 6%;
+}
+.term-font {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 22px;
+  border-bottom: 2px solid black;
+  color: black;
+
+}
+nav {
+  background-color: rgb(27, 41, 54);
+  text-align: center;
+}
+nav a {
+  display: inline-block;
+  margin: 1rem 2rem;
+  text-decoration: none;
+  font-family:  Georgia, Times, 'Times New Roman', serif ;
+  font-size: 1.2em;
+  background-color: rgb(27, 41, 54);
+  color: rgb(255, 255, 255);
+  transition: 0.1s;
 }
 
-.new-plant-form {
-  padding: 2rem 1rem;
-  margin: 2rem 0;
-  background-color: rgba(181, 250, 181, 0.5);
+nav a:hover,
+nav a:active {
+  color: rgb(239, 255, 0);
+  border-bottom: 2px solid rgb(239, 255, 0);
 }
 
-.new-plant-form form {
-  display: flex;
-  justify-content: center;
+nav a.active {
+  background-color: rgb(239, 255, 0);
+  color: rgb(27, 41, 54);
 }
-
-.new-plant-form input {
-  margin-right: 2rem;
-  flex: 1;
+.search-image{
+  background: transparent;
+  border: 0px;
+  width: 5%;
+  height: 5%;
 }
-
-.new-plant-form button {
-  width: 150px;
+#search-label{
+  text-align: center;
+  font-family: Georgia, Times, 'Times New Roman', serif ;
+  font-size: 24px;
+  width:100%;
+  flex-direction: row;
+  align-items: center;
 }
-
-.searchbar {
-  padding: 1rem;
+#searchbar-container{
   display: flex;
   flex-direction: column;
+  justify-content: center;  
 }
 
-label {
-  font-weight: bold;
-  display: block;
+#input-container{
+  align-items: center;
+  flex-direction: column;
+  display: flex
 }
-
-input {
-  padding: 0.25rem;
-  border: none;
-  font-family: inherit;
-  font-size: 1.2em;
-  border-bottom: 2px solid gray;
-  transition: all 0.2s;
+.vocab-cards{
+  align-items: center;
+  /* flex-direction: inherit; */
+  display: inline-block;
   width: 100%;
+  margin-left:auto;
+  margin-right:auto;
 }
-
-input:focus {
-  outline: none;
-  border-bottom: 2px solid var(--green);
-}
-
 .cards {
+  padding: 5rem 0;
   list-style: none;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
+  text-align: center;
   margin: 1rem;
+  box-shadow: 0 0 7px 0 #ddd;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  
 }
 
 .card img {
@@ -110,7 +102,7 @@ input:focus {
 }
 
 .card button {
-  margin-top: 0.5rem;
+  margin-top: 0.9rem;
 }
 
 @media (min-width: 768px) {
@@ -122,6 +114,56 @@ input:focus {
   .card {
     width: calc(33% - 2rem);
   }
+  
+}
+.cohort-form form {
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  background-color: rgba(179, 179, 179, 0.5);
+}
+
+.cohort-form form {
+  display: flex;
+  justify-content: center;
+}
+
+.cohort-form input {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.cohort-form button {
+  width: 150px;
+}
+.vocab-form form {
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  background-color: rgba(179, 179, 179, 0.5);
+}
+
+.vocab-form form {
+  display: flex;
+  justify-content: center;
+}
+
+.vocab-form input {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.vocab-form button {
+  width: 150px;
+}
+.search-container {
+  text-align: center;
+}
+
+.search-container input {
+  text-align: center;
+  font-family: Georgia, Times, 'Times New Roman', serif ;
+  font-size:3em;
+  width:40%;
+  border-radius: 4em;;
 }
 
 @media (min-width: 1024px) {
@@ -135,4 +177,3 @@ input:focus {
     width: calc(20% - 2rem);
   }
 }
-

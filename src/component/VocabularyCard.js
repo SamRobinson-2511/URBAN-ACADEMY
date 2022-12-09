@@ -1,47 +1,49 @@
 import React, {useState} from "react";
 
-function VocabularyCard({term, definition, example, moreInfo}){
+function VocabularyCard({id, term, definition, example, moreInfo, handleDeleteCard}){
   const [favorite, setFavorite]= useState(true)
 
-  function handleStar(){
+  function handleHeart(){
     setFavorite((prev)=> !prev)
   }
 
-  function deleteCard(){
-    fetch(`http://localhost:4000/terms/${id}`, 
-    {method:'DELETE'}
-    )
-   handleDeleteCard(id)
+  function handleMoreInfoError(){
+     if(!moreInfo){
+      return alert('no link')
+     }
+    
   }
 
+  function deleteCard(){
+    fetch(`http://localhost:4000/terms/${id}`,
+    {method:'DELETE'} 
+    )
+    handleDeleteCard(id)
+  }
+  
+
 return (
-<Card>
-    <div>
-        <div className="front content">
-           <div className="header">{term}</div>   
-        </div>
-
-        <div className="back content">
-            <div className="definition">{definition}</div>
-            <e>{example}</e>  
-        </div>
-
+    <li className="card">
+           <div className="term-font"><strong>{term}</strong></div>  
+           <div className="definition"><strong>Definition:</strong> {definition}</div>
+          <em><strong>Example:</strong>{example}</em>  
+        
       <div className="details">
         {favorite ? (
-          <button onClick={handleStar} className="emoji-button favorite active">★</button>
+          <button onClick={handleHeart} className="emoji-button favorite active">♡ </button>
         ) : (
-          <button onClick={handleStar} className="emoji-button favorite">☆</button>
+          <button onClick={handleHeart} className="emoji-button favorite">♥</button>
         )}
 
-        {/* Anchor List*/}
-        <a href={moreInfo} target="_blank" rel="noreferrer">
-          <button>More Info</button>
-        </a>
+        
+        { moreInfo === undefined ? null : (<a href={moreInfo} target="_blank" rel="noreferrer">
+          <button onClick={handleMoreInfoError}>More Info</button>
+        </a>) }
+       
         <button onClick={deleteCard} className="emoji-button delete">🗑</button>
       </div>
 
-    </div>
-</Card> 
+    </li>
 );
 }
 
